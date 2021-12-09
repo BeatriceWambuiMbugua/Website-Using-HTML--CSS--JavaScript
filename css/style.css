@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: monospace;
 }
 .main {
   width: 100%;
@@ -61,7 +61,13 @@ nav {
 }
 .feature {
   position: absolute;
+  display: flex;
+  color: #222;
 }
+.feature div {
+  margin-left: 30px;
+}
+
 .one {
   top: 450px;
   right: 50px;
@@ -77,4 +83,15 @@ nav {
 .four {
   bottom: 150px;
   right: 350px;
+}
+p {
+  line-height: 2em;
+}
+.mobile {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translateY(-50%);
+  z-index: 1;
 }
