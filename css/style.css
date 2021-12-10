@@ -18,11 +18,14 @@ nav {
   display: flex;
   align-items: center;
 }
+.navbar {
+  margin-top: -60px;
+}
 .logo {
   flex-basis: 20%;
 }
 .logo img {
-  width: 150px;
+  width: 100%;
 }
 .nav-links {
   flex: 1;
